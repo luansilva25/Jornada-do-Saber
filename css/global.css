@@ -73,7 +73,6 @@ a{
 	display: flex;
 	align-items: center;
 }
-  
 .header .logo{
 	padding: 0 15px;
 }
@@ -363,4 +362,56 @@ a{
 		right: 0;
 	}
 	
+}
+.login{
+	margin-top: 20px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.login .acessar{
+	border: 2px solid;
+	color: white;
+	padding: 10px;
+	width: 150px;
+	background-color: #e91e63;
+}
+.login .acessar a{
+	color: #F2F2F2;
+}
+.login .conta a{
+	color: #e91e63;
+}
+.fazer_conta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.fazer_conta .crie{
+	border: 2px solid #0D0D0D;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	gap: 20px;
+}
+.crie input{
+	outline: 0;
+	opacity: 0.5;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 15px;
+}
+
+.crie input:hover{
+	border-bottom: 1px solid #e91e63;
+}
+.criacao{
+	display: flex;
+	justify-content: center;
+	background-color: #e91e63;
+	width: auto;
+	color: #F2F2F2;
+	padding: 10px;
 }
