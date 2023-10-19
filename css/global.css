@@ -239,27 +239,23 @@ a{
 #bottom {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
 	flex-direction: row;
 	background-color: var(--cinzaescuro-color);
 	padding: 50px;
 	width: 100%;
-	height: 100vh;
+	height: 85vh;
 	flex-wrap: wrap;
   }
-  
-  .itens-bottom {
-	height: 500px;
-	width: 250px;
-  }
-  
+
   #info-bottom {
+	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	text-align: center;
 	color: var(--bright-color);
 	height: 400px;
-	width: 175px;
+	border-bottom: 2.5px solid var(--bright-color);
+	width: 100%;
   }
   
   #titulo-bottom{
